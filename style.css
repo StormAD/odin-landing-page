@@ -5,10 +5,17 @@ body{
 }
 .header{
     background-color: #1f2937;
-    color: white;
+    
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: space-around;
+}
+.header a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.header a:hover{
+    text-decoration: line-through;
 }
 .header img{
     width: 50px
@@ -20,3 +27,39 @@ body{
     font-size: 18px;
     list-style-type: none;
 }
+.secondsection{
+    background-color: #1f2937;
+    display: flex;
+    padding:50px 75px 50px 75px;
+}
+.maintext{
+    width: 50%;
+}
+.maintext p{
+    margin-top: 5px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.maintext button{
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    background-color: #3882F6;
+}
+#HeroMain{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.imagesection{
+    width: 50%;
+}
+.imagesection img{
+    width: 100%;
+    height: 100%;
+}
+
