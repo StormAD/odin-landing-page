@@ -96,5 +96,14 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
 }
+.fourthsection{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+.fourthsection p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 
+}
 
