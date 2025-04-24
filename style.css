@@ -40,6 +40,7 @@ body{
     color: #E5E7EB;
     font-size: 18px;
     flex: 0 1 auto;
+    flex-wrap: nowrap;
 }
 .maintext button{
     padding: 5px 15px 5px 15px;
@@ -56,6 +57,7 @@ body{
     font-weight: 900;
     padding-bottom: 5px;
     margin-bottom: 0px;
+    flex-wrap: nowrap;
 }
 .imagesection{
     width: 50%;
@@ -93,8 +95,8 @@ body{
     margin-top: 7px;
 }
 .boxs{
+    flex: 0 1 0;
     display: flex;
-    flex:0 1 0;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -135,6 +137,12 @@ body{
 .fifthsection button:hover{
     background-color: #E5E7EB;
     color: #1f2937;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #E5E7EB;
 }
 
 
